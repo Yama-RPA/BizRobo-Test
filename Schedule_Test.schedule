@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <schedule id="1">
-  <id>60876058288700</id>
+  <id>61021113906400</id>
   <name>Schedule_Test</name>
   <blockJob id="2">
     <block class="com.kapowtech.scheduler.server.entity.SequentialBlock" id="3">
       <project id="4"/>
-      <name>Schedule_Test1752547676332</name>
+      <name>Schedule_Test1752547821388</name>
       <namedBlock>false</namedBlock>
       <childReference id="5">
         <child class="concurrentBlock" id="6">
@@ -44,15 +44,15 @@
   <scheduler class="org.quartz.impl.StdScheduler" id="8">
     <scheduler/></scheduler>
   <trigger class="org.quartz.impl.triggers.SimpleTriggerImpl" id="9">
-    <name>60876058288700</name>
+    <name>61021113906400</name>
     <start id="10">2025-07-15 02:40:00.0 UTC</start>
     <interval>3600000</interval>
     <repeatCount>-1</repeatCount>
   </trigger>
   <revisionNumber>local</revisionNumber>
   <tasksPriority>MEDIUM</tasksPriority>
-  <tasksTimeout>600000</tasksTimeout>
-  <commitMessage/>
-  <lastModified id="11">2025-07-15 02:47:56.0 UTC</lastModified>
+  <tasksTimeout>6000000</tasksTimeout>
+  <commitMessage>Commit2</commitMessage>
+  <lastModified id="11">2025-07-15 02:50:21.0 UTC</lastModified>
   <serializationVersion>1</serializationVersion>
 </schedule>
